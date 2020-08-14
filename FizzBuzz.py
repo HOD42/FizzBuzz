@@ -13,9 +13,10 @@ def checkMultipleOf5(num):
         return(True)
 
 for num in range(1,101):
-    print ("num=",num," ",end="")
     if checkMultipleOf3(num):
         print ("Fizz",end="")
     if checkMultipleOf5(num):
         print ("Buzz",end="")
+    if not checkMultipleOf3(num) and not checkMultipleOf5(num):
+        print ("num=",num," ",end="")
     print ("")
