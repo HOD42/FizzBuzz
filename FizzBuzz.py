@@ -26,6 +26,10 @@ def checkMultipleOf11(num):
     else:
         return(True)
 
+# TO DO - checkMultipleOf13 (Fezz)
+
+# TO DO - checkMultipleOf17 (Reverse order)
+
 for num in range(1,101):
     if checkMultipleOf11(num):
         print ("Bong")
