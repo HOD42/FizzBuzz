@@ -39,4 +39,5 @@ for num in range(1,101):
         print ("Bang",end="")
     if not checkMultipleOf3(num) and not checkMultipleOf5(num) and not checkMultipleOf7(num):
         print ("num=",num," ",end="")
+    # Print a new line
     print ("")
